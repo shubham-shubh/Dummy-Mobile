@@ -1,0 +1,20 @@
+document.querySelector("#red").addEventListener("click",function(){
+ window.location.replace(
+"http://localhost:3000/games"
+);
+});
+document.querySelector("#green").addEventListener("click",function(){
+ window.location.replace(
+   "http://localhost:3000/tools"
+);
+});
+document.querySelector("#yellow").addEventListener("click",function(){
+ window.location.replace(
+   "http://localhost:3000/notes"
+);
+});
+document.querySelector("#blue").addEventListener("click",function(){
+ window.location.replace(
+   "http://localhost:3000/aboutMe"
+);
+});

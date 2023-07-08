@@ -1,0 +1,10 @@
+document.querySelector("#green").addEventListener("click",function(){
+  window.location.replace(
+"http://localhost:3000/notes/to-do-list"
+);
+});
+document.querySelector("#red").addEventListener("click",function(){
+  window.location.replace(
+"http://localhost:3000/notes/notesHandler"
+);
+});
