@@ -1,5 +1,5 @@
 document.addEventListener("dblclick",function(){
   window.location.replace(
-"http://localhost:3000"
+"https://dummy-mobile-2rzq.onrender.com/games"
 );
 });
