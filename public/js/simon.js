@@ -74,6 +74,6 @@ function startOver() {
 }
 document.addEventListener("dblclick",function(){
   window.location.replace(
-"https://dummy-mobile-2rzq.onrender.com/games"
+"http://localhost:3000/games"
 );
 });

@@ -12,7 +12,7 @@ const connectDB=require("./db");
 const cors=require("cors");
 connectDB();
 app.use(bodyParser.urlencoded({extended: true}));
-app.use(express.static("public"));
+app.use(express.static(__dirname+"/public"));
 app.set('view engine','ejs');
 app.use(cors());
 app.use("/",homePage);

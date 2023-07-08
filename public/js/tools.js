@@ -1,5 +1,10 @@
 document.querySelector("#green").addEventListener("click",function(){
   window.location.replace(
-"https://dummy-mobile-2rzq.onrender.com/tools/weather"
+"http://localhost:3000/tools/weather"
+);
+});
+document.querySelector("#red").addEventListener("click",function(){
+  window.location.replace(
+"http://localhost:3000/tools/calculator"
 );
 });
