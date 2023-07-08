@@ -1,20 +1,20 @@
 document.querySelector("#red").addEventListener("click",function(){
  window.location.replace(
-"http://localhost:3000/games"
+"https://dummy-mobile-2rzq.onrender.com/games"
 );
 });
 document.querySelector("#green").addEventListener("click",function(){
  window.location.replace(
-   "http://localhost:3000/tools"
+   "https://dummy-mobile-2rzq.onrender.com/tools"
 );
 });
 document.querySelector("#yellow").addEventListener("click",function(){
  window.location.replace(
-   "http://localhost:3000/notes"
+   "https://dummy-mobile-2rzq.onrender.com/notes"
 );
 });
 document.querySelector("#blue").addEventListener("click",function(){
  window.location.replace(
-   "http://localhost:3000/aboutMe"
+   "https://dummy-mobile-2rzq.onrender.com/aboutMe"
 );
 });
