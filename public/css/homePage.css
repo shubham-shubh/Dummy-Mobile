@@ -1,68 +1,60 @@
-body {
-  text-align: center;
-  background-color: #011F3F;
+body{
   /* background-color: black; */
-  font-family: monospace;
-  font-size: 1rem;
-  font-weight: bolder;
+  text-align: center;
+  background-image: url("../images/nasa.jpg");
+  background-size: cover;
+  background-position: center;
 }
-
-#level-title {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 2rem;
-  color: #FEF2BF;
+.frame{
+  background-color: white;
+  height: 450px;
+  width: 220px;
+  border-radius: 10%;
+  margin-top: 50px;
+  background-image: url("../images/nature.jpeg");
+  background-position: center;
 }
-
-.container {
-  display: block;
-  width: 50%;
-  margin-top:5%;
-  margin-left: 25%;
-}
-
 .btn {
-  margin: 25px;
   display: inline-flex;
-  height: 150px;
-  width: 150px;
-  border-radius: 25%;
   justify-content: center;
-  align-items: center;
-
-  /* width: 0;
-  height: 0;
-  border-top: 150px solid transparent;
-  border-left: 200px solid red;
-  border-bottom:100px solid transparent;
-  display: inline-flex; */
+  flex-direction: column;
 }
-
-
-
-.red {
-  background-color: red;
-  border: 10px solid yellow;
-  color: blue;
-}
-
-.green {
-  background-color: green;
-  border: 10px solid blue;
+.black{
+  border: 10px solid grey;
   color: yellow;
 }
-
-.blue {
-  background-color: blue;
-  border: 10px solid green;
+.app{
+  height: 50px;
+  width: 50px;
+  border-radius: 10%;
+  margin-top:10%;
+  background-size: contain;
+}
+.red{
+  border: 3px solid grey;
+  background-color: white;
   color: yellow;
+  margin-left: 25px;
 }
-
-.yellow {
-  background-color: yellow;
-  border: 10px solid red;
-  color: red;
+.games{
+  background-image: url("../images/games.png");
 }
-
+.weather{
+    background-image: url("../images/weather.png");
+}
+.to-do-list{
+    background-image: url("../images/to-do-list.png");
+}
+.notes{
+  background-image: url("../images/notes.png");
+}
+.row{
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 94px;
+  width: 200px;
+}
 .pressed:active{
   box-shadow: 0 0 20px white;
   transform: translateY(4px);

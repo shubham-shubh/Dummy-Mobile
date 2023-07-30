@@ -3,58 +3,39 @@
   <head>
     <meta charset="utf-8">
     <title>HomePage</title>
-  <link rel="stylesheet" href="css/homePage.css">
-  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="css/homePage.css">
   </head>
   <body>
     <!-- Example single danger button -->
   <!-- <h1 id="level-title">Press A Key to Start</h1> -->
-  <div class="container">
+  <div type="button" class="btn frame black">
     <div class="row">
-
-      <div type="button" id="green" class="btn green pressed">
-       TOOLS
+      <div type="button" class="btn red app games pressed">
       </div>
-
-      <div type="button" id="red" class="btn red pressed">
-       GAMES
+      <div type="button" class="btn red app to-do-list pressed">
       </div>
     </div>
-    <h1 id="level-title">Dummy Mobile</h1>
     <div class="row">
-
-      <div type="button" id="yellow" class="btn yellow pressed">
-       NOTES
+      <div type="button" class="btn red app notes pressed">
       </div>
-      <div type="button" id="blue" class="btn blue pressed">
-       ABOUT ME
+      <div type="button" class="btn red app weather pressed">
       </div>
-
     </div>
+    <h1>Dummy</h1>
+    <script type="text/javascript">
+     document.querySelector(".games").addEventListener("click",function(){
+      window.location.replace("https://dummy-mobile-2rzq.onrender.com/games");
+     })
+     document.querySelector(".to-do-list").addEventListener("click",function(){
+      window.location.replace("https://dummy-mobile-2rzq.onrender.com/notes/to-do-list");
+     })
+     document.querySelector(".notes").addEventListener("click",function(){
+      window.location.replace("https://dummy-mobile-2rzq.onrender.com/notes/notesHandler");
+     })
+     document.querySelector(".weather").addEventListener("click",function(){
+      window.location.replace("https://dummy-mobile-2rzq.onrender.com/weather");
+     })
+    </script>
   </div>
-   <script type="text/javascript" src="js/homePage.js">
-   </script>
-   <script type="text/javascript">
-   document.querySelector("#red").addEventListener("click",function(){
-    window.location.replace(
-   "https://dummy-mobile-2rzq.onrender.com/games"
-   );
-   });
-   document.querySelector("#green").addEventListener("click",function(){
-    window.location.replace(
-      "https://dummy-mobile-2rzq.onrender.com/tools"
-   );
-   });
-   document.querySelector("#yellow").addEventListener("click",function(){
-    window.location.replace(
-      "https://dummy-mobile-2rzq.onrender.com/notes"
-   );
-   });
-   document.querySelector("#blue").addEventListener("click",function(){
-    window.location.replace(
-      "https://dummy-mobile-2rzq.onrender.com/aboutMe"
-   );
-   });
-   </script>
   </body>
 </html>

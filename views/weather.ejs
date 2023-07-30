@@ -7,19 +7,25 @@
   </head>
   <body>
   <div class="header">
-  <h1>LETS CHECK THE WEATHER</h1>
-  <img src="../images/OIP.jpg" alt="weather_icon">
-  <form  action="/tools/weather" method="post">
-  <label for="city">City:</label>
-  <input type="text" name="city" value="">
+  <form  action="/weather" method="post">
+  <div>
+  <label for="city">City</label>
+</div>
+  <input  style="width: 300px; height: 30px" type="text" name="city" value="">
+<div>
   <button type="submit" name="button">Submit</button>
+</div>
   </form>
   </div>
   <script type="text/javascript">
     document.addEventListener("dblclick",function(){
-      window.location.replace(
-    "https://dummy-mobile-2rzq.onrender.com/tools"
-    );
+    //   window.location.replace(
+    // "http://localhost:3000"
+    // );
+    document.addEventListener("dblclick",function(){
+    window.location.replace(
+  "https://dummy-mobile-2rzq.onrender.com"
+  );
     });
   </script>
   </body>

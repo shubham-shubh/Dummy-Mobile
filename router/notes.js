@@ -4,9 +4,9 @@ const Item=require("../models/to-do-list");
 const Entry=require("../models/notes-manager")
 const date=require("../date");
 const _=require("lodash");
-router.route("/").get((req,res)=>{
-  res.render("game",{key1: "TO-DO-LIST",key2: "NOTES HANDLER",key3: "notes"});
-});
+// router.route("/").get((req,res)=>{
+//   res.render("game",{key1: "TO-DO-LIST",key2: "NOTES HANDLER",key3: "notes"});
+// });
 router.route("/to-do-list").get(async(req,res)=>{
   await Item.find()
 .then(function (models) {

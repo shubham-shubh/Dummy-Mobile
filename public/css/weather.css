@@ -1,16 +1,21 @@
 body{
-  background-color: #ECF9FF;
+  /* background-color: #ECF9FF; */
+  background-image: url("../images/weather_home.gif");
   margin-top: 0px;
   font-size: 20px;
+  background-size: cover;
+  font-size: 50px;
 }
 .header{
-  font-family:  monospace;
+  font-family:cursive ;
   text-align: center;
   padding-top: 2rem;
+  margin-top: 200px;
 }
 h1{
-  font-size: 40px;
+  font-size: 100px;
   margin-top: 1px;
+  color: blue;
 }
 
 /* img{
@@ -19,6 +24,9 @@ h1{
 .form{
   display: inline-block;
   margin-left: 39%;
-  margin-top: 15%;
+  /* margin-top: 15%; */
   font-size: 2rem;
+}
+.inputbox{
+  background-color: yellow;
 }
